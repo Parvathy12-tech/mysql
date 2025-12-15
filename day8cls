@@ -1,0 +1,7 @@
+CREATE DATABASE groceryshop;
+CREATE TABLE table_name( product_id INT(5), product_name VARCHAR(100) NOT NULL, price VARCHAR(40));
+ALTER TABLE products ADD category VARCHAR(25);
+SELECT * FROM `products`
+TRUNCATE table products;
+Expand Requery Edit Bookmark Database : groceryshop Queried time : 12:11:50
+DROP DATABASE groceryshop;
